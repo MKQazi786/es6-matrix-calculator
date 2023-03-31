@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>es6 matrix calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>es6 matrix calculator</h1>
+    </header>
+
+    <form onsubmit="calculateMatrix(); return false ">
+
+        <h2>value 1</h2>
+
+        <row class="row">
+            <input type="number" class="row1" id="x1" min="0" max="99">
+            <input type="number" class="row1" id="x2" min="0" max="99">
+            <input type="number" class="row1" id="x3" min="0" max="99">
+        </row>
+
+        <br>
+
+        <row class="row">
+            <input type="number" class="row1" id="x4" min="0" max="99">
+            <input type="number" class="row1" id="x5" min="0" max="99">
+            <input type="number" class="row1" id="x6" min="0" max="99">
+        </row>
+
+        <br>
+
+        <row class="row">
+            <input type="number" class="row1" id="x7" min="0" max="99">
+            <input type="number" class="row1" id="x8" min="0" max="99">
+            <input type="number" class="row1" id="x9" min="0" max="99">
+        </row>
+
+
+        <h2>value 2</h2>
+
+        <row class="row">
+            <input type="number" class="row1" id="y1" min="0" max="99">
+            <input type="number" class="row1" id="y2" min="0" max="99">
+            <input type="number" class="row1" id="y3" min="0" max="99">
+        </row>
+
+        <br>
+
+        <row class="row">
+            <input type="number" class="row1" id="y4" min="0" max="99">
+            <input type="number" class="row1" id="y5" min="0" max="99">
+            <input type="number" class="row1" id="y6" min="0" max="99">
+        </row>
+
+        <br>
+
+        <row class="row">
+            <input type="number" class="row1" id="y7" min="0" max="99">
+            <input type="number" class="row1" id="y8" min="0" max="99">
+            <input type="number" class="row1" id="y9" min="0" max="99">
+        </row>
+
+        <nav class="button">
+            <button type="submit" onclick="calculateMatrix(event)">ADD + </button>
+            <!-- <button>SUB -</button>
+            <button>MULT *</button> -->
+        </nav>
+
+    </form>
+
+    <br>
+    <hr>
+
+    <h1>Result</h1>
+
+    <h2>value 3</h2>
+
+    <row class="row">
+        <input type="number" class="row1" id="z1" min="0" max="99">
+        <input type="number" class="row1" id="z2" min="0" max="99">
+        <input type="number" class="row1" id="z3" min="0" max="99">
+    </row>
+
+    <br>
+
+    <row class="row">
+        <input type="number" class="row1" id="z4" min="0" max="99">
+        <input type="number" class="row1" id="z5" min="0" max="99">
+        <input type="number" class="row1" id="z6" min="0" max="99">
+    </row>
+
+    <br>
+
+    <row class="row">
+        <input type="number" class="row1" id="z7" min="0" max="99">
+        <input type="number" class="row1" id="z8" min="0" max="99">
+        <input type="number" class="row1" id="z9" min="0" max="99">
+    </row>
+
+    <footer>
+        &copy;Web and App Developer: Muhammad Khubaib <br>
+        <a href="https://github.com/MKQazi786">Github/MKQazi786</a>
+    </footer>
+
+</body>
+
+</html>

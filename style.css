@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(#2AF598, #009EFD)
+}
+
+.header{
+    display: flex;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    column-gap:0.4rem;
+    justify-content: center;
+}
+
+.row1 {
+    outline: 1px solid green;
+    width: 2rem;
+    border-radius: 0.5rem;
+}
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration:underline double violet;
+}
+
+h2{
+    text-align: center;
+    text-transform: capitalize ;
+    text-decoration:underline dotted ;
+}
+
+footer{
+    text-decoration: underline;
+    margin-top: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: blanchedalmond;
+}
+
+footer a{
+    color: black;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    /* width: fit-content; */
+    margin: 1rem 8rem;
+    row-gap: 0.3rem;
+    
+}
