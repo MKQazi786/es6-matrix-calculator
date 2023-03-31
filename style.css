@@ -9,12 +9,12 @@ body{
 
 .row {
     display: flex;
-    column-gap:0.4rem;
+    column-gap:0.3rem;
     justify-content: center;
 }
 
 .row1 {
-    outline: 1px solid green;
+    outline: 2px solid green;
     width: 2rem;
     border-radius: 0.5rem;
 }
@@ -50,4 +50,14 @@ footer a{
     margin: 1rem 8rem;
     row-gap: 0.3rem;
     
+}
+
+.row > p {
+    text-align: center;
+    outline: 2.2px solid black;
+    width: 2.3rem;
+    height:1.2rem;
+    border-radius: 0.5rem;
+    margin: 0.08rem;
+    background-color: aliceblue;
 }
